@@ -1,0 +1,26 @@
+# 🔐 Secret files
+.env
+.env.*
+
+# 📄 Uploaded / temp files
+temp.pdf
+uploads/
+*.pdf
+
+# 🧠 Vector store / embeddings / indexes
+indexes/
+vectorstore/
+*.faiss
+*.pkl
+
+# 🐍 Python cache
+__pycache__/
+*.pyc
+
+# 🐍 Virtual environment
+venv/
+myenv/
+
+# 🛠️ OS files
+.DS_Store
+Thumbs.db
